@@ -1,0 +1,26 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "TEAM_ID.com.vraxion.fruloop"
+        ],
+        "paths": [
+          "/",
+          "/home",
+          "/leaderboard",
+          "/shop",
+          "/settings",
+          "/missions",
+          "/daily-reward",
+          "/how-to-play",
+          "/play",
+          "/gameplay",
+          "/legal",
+          "NOT /api/*"
+        ]
+      }
+    ]
+  }
+}
