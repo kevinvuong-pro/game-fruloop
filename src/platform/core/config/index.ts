@@ -64,8 +64,8 @@ const ENV_CONFIGS: Record<Environment, Partial<RuntimeConfig>> = {
     adsEnabled: true,
     iapEnabled: true,
     analyticsEnabled: true,
+    apiUrl: 'http://localhost:3000/api',
     ...notificationEnvConfigs.development,
-    apiUrl: 'https://game-api-agod.onrender.com/api',
   },
   production: {
     debug: false,
